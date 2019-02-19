@@ -1,0 +1,445 @@
+2019-02-19 12:57:55.112 [INFO ] com.apexsoft.HelloApplication - The following profiles are active: dev
+2019-02-19 12:57:59.480 [INFO ] com.apexsoft.TestProducer - com.apexsoft.TestProducer
+2019-02-19 12:57:59.737 [INFO ] com.apexsoft.aas.modules.index.service.ICustomModeAuthService - com.apexsoft.aas.modules.index.service.DefaultAuthService认证PATH:["*"]
+2019-02-19 12:57:59.738 [INFO ] com.apexsoft.aas.modules.index.service.ICustomModeAuthService - com.apexsoft.aas.modules.index.service.DefaultAuthService认证功能码:["*"]
+2019-02-19 12:58:00.721 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-common/1.1.0-SNAPSHOT/5091cc08f0442d80f053155680ef1b71e6a0a579/aas-common-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/common/swagger/ApiScanner.class
+2019-02-19 12:58:00.721 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:00.722 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-common/1.1.0-SNAPSHOT/5091cc08f0442d80f053155680ef1b71e6a0a579/aas-common-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:00.771 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.ValidResponse
+2019-02-19 12:58:00.771 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.AuthRequest
+2019-02-19 12:58:00.774 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.DataJSONResponse
+2019-02-19 12:58:00.790 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.QueryJSONResponse
+2019-02-19 12:58:00.800 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.ListJSONRequest
+2019-02-19 12:58:00.801 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.JSONResponse
+2019-02-19 12:58:00.801 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.DataJSONRequest
+2019-02-19 12:58:00.802 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.AuthUserResponse
+2019-02-19 12:58:00.802 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.AuthResponse
+2019-02-19 12:58:00.802 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.QueryJSONRequest
+2019-02-19 12:58:00.803 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.ListJSONResponse
+2019-02-19 12:58:00.805 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.JSONRequest
+2019-02-19 12:58:00.806 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.common.SessionTimeoutResponse
+2019-02-19 12:58:00.814 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.stream.model.StreamTokenRequest
+2019-02-19 12:58:00.815 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.stream.model.StreamTokenResponse
+2019-02-19 12:58:01.195 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.ticket.model.RegistryReply
+2019-02-19 12:58:01.197 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.index.controller.DemoService$TestRequest
+2019-02-19 12:58:01.212 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.helper.api.pkg.AmsServiceHelperRequest$MethodList
+2019-02-19 12:58:01.213 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.helper.api.pkg.AmsServiceHelperRequest$MethodList$Param
+2019-02-19 12:58:01.213 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.helper.api.pkg.AmsServiceBeanResponse
+2019-02-19 12:58:01.226 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.controller.ClientSettingController$SettingReply
+2019-02-19 12:58:01.226 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.controller.ClientSettingController$NewSettingReply
+2019-02-19 12:58:01.227 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.model.ClientSettingConfig
+2019-02-19 12:58:01.228 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.model.ClientSettingServer
+2019-02-19 12:58:01.228 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.model.ClientSetting
+2019-02-19 12:58:01.232 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Get
+2019-02-19 12:58:01.232 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$ClientId$Param
+2019-02-19 12:58:01.233 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$QueryList$Param
+2019-02-19 12:58:01.233 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$GetClientByClientId
+2019-02-19 12:58:01.234 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$GetClientByClientId$Param
+2019-02-19 12:58:01.234 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Create
+2019-02-19 12:58:01.234 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$QueryPageList$Param
+2019-02-19 12:58:01.235 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$QueryList
+2019-02-19 12:58:01.235 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$QueryPageList
+2019-02-19 12:58:01.235 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Update$Param
+2019-02-19 12:58:01.236 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Create$Param
+2019-02-19 12:58:01.236 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Update
+2019-02-19 12:58:01.237 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Delete$Param
+2019-02-19 12:58:01.237 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Get$Param
+2019-02-19 12:58:01.237 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$Delete
+2019-02-19 12:58:01.238 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingListResponse
+2019-02-19 12:58:01.238 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingResponse
+2019-02-19 12:58:01.238 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.client.api.pkg.ClientSettingRequest$ClientId
+2019-02-19 12:58:01.244 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.console.api.pkg.ServiceInvokeStatRequest$ServiceInvokeRank
+2019-02-19 12:58:01.244 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.console.api.pkg.ServiceInvokeStatResponse
+2019-02-19 12:58:01.247 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.session.api.pkg.OnlineUserRequest$QueryPageList
+2019-02-19 12:58:01.248 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.session.api.pkg.OnlineUserRequest$ForceOffline$Param
+2019-02-19 12:58:01.248 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.session.api.pkg.OnlineUserListResponse
+2019-02-19 12:58:01.248 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.session.api.pkg.OnlineUserNumberResponse
+2019-02-19 12:58:01.249 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.session.api.pkg.OnlineUserRequest$QueryPageList$Param
+2019-02-19 12:58:01.249 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.session.api.pkg.OnlineUserRequest$ForceOffline
+2019-02-19 12:58:01.258 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出models数量:51
+2019-02-19 12:58:01.260 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-mobile/1.1.0-SNAPSHOT/aas-mobile-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/mobile/common/config/MobileSwaggerScanner.class
+2019-02-19 12:58:01.260 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:01.261 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.m2/repository/com/apexsoft/aas-mobile/1.1.0-SNAPSHOT/aas-mobile-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:01.263 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.push.model.PushTerminal
+2019-02-19 12:58:01.264 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.push.model.PushTag
+2019-02-19 12:58:01.317 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.DongInformation
+2019-02-19 12:58:01.318 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.WorkflowItem
+2019-02-19 12:58:01.319 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.AppVersion
+2019-02-19 12:58:01.319 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.AppClientLog
+2019-02-19 12:58:01.320 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.ChannelRead
+2019-02-19 12:58:01.320 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.DongInformationSummary
+2019-02-19 12:58:01.321 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.AppPublish
+2019-02-19 12:58:01.322 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.DdUser
+2019-02-19 12:58:01.323 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.AppUser
+2019-02-19 12:58:01.323 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.MessageSummary
+2019-02-19 12:58:01.324 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.DongCollect
+2019-02-19 12:58:01.324 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.DongReceive
+2019-02-19 12:58:01.325 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.AppManage
+2019-02-19 12:58:01.326 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.DongComment
+2019-02-19 12:58:01.327 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.ChannelMessage
+2019-02-19 12:58:01.327 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.DongFile
+2019-02-19 12:58:01.328 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.AppProduct
+2019-02-19 12:58:01.329 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.ThirdAuth
+2019-02-19 12:58:01.329 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.FeedBack
+2019-02-19 12:58:01.330 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.ChannelUser
+2019-02-19 12:58:01.330 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.model.AppCrash
+2019-02-19 12:58:01.383 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$CommentAdd
+2019-02-19 12:58:01.384 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelUserRequest$ChannelUserQueryList$Param
+2019-02-19 12:58:01.384 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$QueryList$Param
+2019-02-19 12:58:01.384 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ThirdAuthRequest$Auth
+2019-02-19 12:58:01.384 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$QueryInformationList$Param
+2019-02-19 12:58:01.385 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppCrashRequest$QueryList$Param
+2019-02-19 12:58:01.385 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionResponse
+2019-02-19 12:58:01.386 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Create$Param
+2019-02-19 12:58:01.386 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Update
+2019-02-19 12:58:01.387 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Update$Param
+2019-02-19 12:58:01.387 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppCrashListResponse
+2019-02-19 12:58:01.387 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$QueryList$Param
+2019-02-19 12:58:01.387 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongInfoResponse
+2019-02-19 12:58:01.388 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishListResponse
+2019-02-19 12:58:01.388 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelUserRequest$Unsubscribe
+2019-02-19 12:58:01.388 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$CommentAdd$Param
+2019-02-19 12:58:01.389 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Create
+2019-02-19 12:58:01.389 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Delete$Param
+2019-02-19 12:58:01.389 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$QueryCommentList$Param
+2019-02-19 12:58:01.390 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$ReadChannel$Param
+2019-02-19 12:58:01.390 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$MessageGet$Param
+2019-02-19 12:58:01.391 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Update$Param
+2019-02-19 12:58:01.391 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.OcrValidRequest
+2019-02-19 12:58:01.391 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductResponse
+2019-02-19 12:58:01.391 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserJsonResponse
+2019-02-19 12:58:01.392 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ThirdAuthResponse
+2019-02-19 12:58:01.393 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.BehaviorHeader
+2019-02-19 12:58:01.393 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Option$Param
+2019-02-19 12:58:01.394 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageResponse
+2019-02-19 12:58:01.394 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppCrashRequest$QueryList
+2019-02-19 12:58:01.395 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Create$Param
+2019-02-19 12:58:01.395 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongConfirmListResponse
+2019-02-19 12:58:01.395 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Get$Param
+2019-02-19 12:58:01.395 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$QueryList
+2019-02-19 12:58:01.396 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackListResponse
+2019-02-19 12:58:01.396 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$DownloadRequest
+2019-02-19 12:58:01.397 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ThirdAuthRequest$Auth$Param
+2019-02-19 12:58:01.397 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Create
+2019-02-19 12:58:01.397 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$ChannelUserQueryList$Param
+2019-02-19 12:58:01.398 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Delete
+2019-02-19 12:58:01.398 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$QueryList0
+2019-02-19 12:58:01.398 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Create
+2019-02-19 12:58:01.399 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$GetDdUserByLoginId$Param
+2019-02-19 12:58:01.399 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishResponse$DownloadResult
+2019-02-19 12:58:01.399 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishResponse
+2019-02-19 12:58:01.400 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$QueryList
+2019-02-19 12:58:01.400 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Delete$Param
+2019-02-19 12:58:01.400 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppCrashRequest
+2019-02-19 12:58:01.401 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.MessageSummaryListResponse
+2019-02-19 12:58:01.402 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$QueryList$Param
+2019-02-19 12:58:01.402 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$QueryList
+2019-02-19 12:58:01.403 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Get$Param
+2019-02-19 12:58:01.403 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$Collect
+2019-02-19 12:58:01.404 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Update$Param
+2019-02-19 12:58:01.408 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Delete
+2019-02-19 12:58:01.410 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$QueryList0$Param
+2019-02-19 12:58:01.410 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$Get
+2019-02-19 12:58:01.411 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$GetSummary$Param
+2019-02-19 12:58:01.412 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Delete
+2019-02-19 12:58:01.413 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Get$Param
+2019-02-19 12:58:01.413 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$QueryList$Param
+2019-02-19 12:58:01.414 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.OcrValidResponse
+2019-02-19 12:58:01.414 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserResponse
+2019-02-19 12:58:01.415 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Delete$Param
+2019-02-19 12:58:01.416 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Create$Param
+2019-02-19 12:58:01.416 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$QueryList1
+2019-02-19 12:58:01.416 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$Update
+2019-02-19 12:58:01.416 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageResponse
+2019-02-19 12:58:01.416 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.WorkflowItemResponse
+2019-02-19 12:58:01.416 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageListResponse
+2019-02-19 12:58:01.417 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Alarm$Param
+2019-02-19 12:58:01.417 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Option
+2019-02-19 12:58:01.418 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Update$Param
+2019-02-19 12:58:01.418 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Create$Param
+2019-02-19 12:58:01.419 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$QueryList$Param
+2019-02-19 12:58:01.419 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Delete$Param
+2019-02-19 12:58:01.420 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$Update$Param
+2019-02-19 12:58:01.421 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Update
+2019-02-19 12:58:01.422 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$ChannelUserQueryList
+2019-02-19 12:58:01.422 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$MessageGet
+2019-02-19 12:58:01.422 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.StreamResponse
+2019-02-19 12:58:01.423 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.WorkflowRequest$QueryWorkflow
+2019-02-19 12:58:01.423 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Get
+2019-02-19 12:58:01.423 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Delete
+2019-02-19 12:58:01.424 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackResponse
+2019-02-19 12:58:01.424 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Update
+2019-02-19 12:58:01.424 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Get$Param
+2019-02-19 12:58:01.425 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Create$Param
+2019-02-19 12:58:01.426 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongCommentListResponse
+2019-02-19 12:58:01.426 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$CheckRequest
+2019-02-19 12:58:01.426 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.OcrValidRequest$Param
+2019-02-19 12:58:01.427 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$Get$Param
+2019-02-19 12:58:01.429 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$QueryList
+2019-02-19 12:58:01.431 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$ConfirmReception$Param
+2019-02-19 12:58:01.433 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Get
+2019-02-19 12:58:01.434 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Update
+2019-02-19 12:58:01.435 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$QueryConfirmList
+2019-02-19 12:58:01.436 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$Create
+2019-02-19 12:58:01.436 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$Get$Param
+2019-02-19 12:58:01.437 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelUserRequest$Unsubscribe$Param
+2019-02-19 12:58:01.439 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Delete$Param
+2019-02-19 12:58:01.440 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$GetDdUserByLoginId
+2019-02-19 12:58:01.442 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionListResponse
+2019-02-19 12:58:01.443 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Get$Param
+2019-02-19 12:58:01.446 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelUserRequest$ChannelUserQueryList
+2019-02-19 12:58:01.448 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Create
+2019-02-19 12:58:01.449 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Delete
+2019-02-19 12:58:01.450 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$QueryInformationList
+2019-02-19 12:58:01.451 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$Subscribe$Param
+2019-02-19 12:58:01.452 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Update
+2019-02-19 12:58:01.452 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$Get
+2019-02-19 12:58:01.452 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$CloseInformation
+2019-02-19 12:58:01.453 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.WorkflowRequest$QueryWorkflow$Param
+2019-02-19 12:58:01.453 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageListResponse
+2019-02-19 12:58:01.454 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$CloseInformation$Param
+2019-02-19 12:58:01.454 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.FeedBackRequest$Delete
+2019-02-19 12:58:01.455 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionResponse$CheckResult
+2019-02-19 12:58:01.455 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Create
+2019-02-19 12:58:01.455 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$Subscribe
+2019-02-19 12:58:01.456 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Create$Param
+2019-02-19 12:58:01.457 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$QueryCommentList
+2019-02-19 12:58:01.458 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$Get
+2019-02-19 12:58:01.458 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductListResponse
+2019-02-19 12:58:01.458 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$Get
+2019-02-19 12:58:01.459 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$Collect$Param
+2019-02-19 12:58:01.459 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$GetSummary
+2019-02-19 12:58:01.460 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$ConfirmReception
+2019-02-19 12:58:01.460 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Get
+2019-02-19 12:58:01.460 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Delete$Param
+2019-02-19 12:58:01.461 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserListResponse
+2019-02-19 12:58:01.461 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishResponse$CheckResult
+2019-02-19 12:58:01.462 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$Alarm
+2019-02-19 12:58:01.462 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Create
+2019-02-19 12:58:01.463 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Update$Param
+2019-02-19 12:58:01.464 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$ReadChannel
+2019-02-19 12:58:01.466 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppVersionRequest$QueryList
+2019-02-19 12:58:01.470 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$QueryList$Param
+2019-02-19 12:58:01.473 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelMessageRequest$QueryList$Param
+2019-02-19 12:58:01.474 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelUserListResponse
+2019-02-19 12:58:01.476 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$QueryConfirmList$Param
+2019-02-19 12:58:01.480 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$Create$Param
+2019-02-19 12:58:01.480 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongInfoSummaryResponse
+2019-02-19 12:58:01.482 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppPublishRequest$CheckRequest
+2019-02-19 12:58:01.484 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppManageRequest$QueryList
+2019-02-19 12:58:01.486 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.ChannelRequest$QueryList1$Param
+2019-02-19 12:58:01.486 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongRequest$Get
+2019-02-19 12:58:01.487 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.StreamRequest
+2019-02-19 12:58:01.488 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DdUserRequest$QueryList
+2019-02-19 12:58:01.489 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.AppProductRequest$Get$Param
+2019-02-19 12:58:01.489 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.mobile.modules.common.api.pkg.DongInfoListResponse
+2019-02-19 12:58:01.547 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出models数量:173
+2019-02-19 12:58:01.554 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-authentication/1.1.0-SNAPSHOT/aas-authentication-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/authentication/AuthenticationSwaggerScanner.class
+2019-02-19 12:58:01.555 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:01.555 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.m2/repository/com/apexsoft/aas-authentication/1.1.0-SNAPSHOT/aas-authentication-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:01.561 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.livebos.api.pkg.LivebosTicketRequest
+2019-02-19 12:58:01.623 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.model.Role
+2019-02-19 12:58:01.623 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.model.Permission
+2019-02-19 12:58:01.624 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.model.UserRole
+2019-02-19 12:58:01.624 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.model.User
+2019-02-19 12:58:01.625 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.model.Component
+2019-02-19 12:58:01.687 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Create
+2019-02-19 12:58:01.687 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Create
+2019-02-19 12:58:01.687 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Save
+2019-02-19 12:58:01.688 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$QueryList
+2019-02-19 12:58:01.688 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Get
+2019-02-19 12:58:01.688 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$QueryList
+2019-02-19 12:58:01.689 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Create$Param
+2019-02-19 12:58:01.689 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Update$Param
+2019-02-19 12:58:01.690 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$BatchCreate
+2019-02-19 12:58:01.691 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Delete$Param
+2019-02-19 12:58:01.692 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$QueryList$Param
+2019-02-19 12:58:01.693 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Create$Param
+2019-02-19 12:58:01.693 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Update
+2019-02-19 12:58:01.693 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Allocated$Param
+2019-02-19 12:58:01.694 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Get$Param
+2019-02-19 12:58:01.694 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$UnAllocated$Param
+2019-02-19 12:58:01.694 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Delete
+2019-02-19 12:58:01.695 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Update$Param
+2019-02-19 12:58:01.696 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Delete$Param
+2019-02-19 12:58:01.699 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$QueryList$Param
+2019-02-19 12:58:01.702 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRequest$QueryList$Param
+2019-02-19 12:58:01.703 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserListResponse
+2019-02-19 12:58:01.704 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Get
+2019-02-19 12:58:01.705 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Allocated
+2019-02-19 12:58:01.706 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleListResponse
+2019-02-19 12:58:01.706 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Delete
+2019-02-19 12:58:01.706 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRequest$QueryList
+2019-02-19 12:58:01.707 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Get$Param
+2019-02-19 12:58:01.707 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Update
+2019-02-19 12:58:01.707 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$UnAllocated$Param
+2019-02-19 12:58:01.708 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$QueryTree
+2019-02-19 12:58:01.708 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserResponse
+2019-02-19 12:58:01.709 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$UnAllocated
+2019-02-19 12:58:01.711 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$QueryList
+2019-02-19 12:58:01.712 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Delete
+2019-02-19 12:58:01.713 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Delete
+2019-02-19 12:58:01.713 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$QueryList$Param
+2019-02-19 12:58:01.714 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionResponse
+2019-02-19 12:58:01.715 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$BatchDelete
+2019-02-19 12:58:01.715 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Update
+2019-02-19 12:58:01.716 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Delete$Param
+2019-02-19 12:58:01.716 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Update$Param
+2019-02-19 12:58:01.717 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Update
+2019-02-19 12:58:01.717 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionListResponse
+2019-02-19 12:58:01.717 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$QueryList
+2019-02-19 12:58:01.719 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Create$Param
+2019-02-19 12:58:01.720 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$QueryList$Param
+2019-02-19 12:58:01.721 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleResponse
+2019-02-19 12:58:01.722 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$BatchDelete$Param
+2019-02-19 12:58:01.722 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Allocated
+2019-02-19 12:58:01.723 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Create$Param
+2019-02-19 12:58:01.723 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentResponse
+2019-02-19 12:58:01.724 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleResponse
+2019-02-19 12:58:01.724 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Create
+2019-02-19 12:58:01.726 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Get$Param
+2019-02-19 12:58:01.730 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$BatchCreate$Param
+2019-02-19 12:58:01.732 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleRequest$Delete$Param
+2019-02-19 12:58:01.735 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Save$Param
+2019-02-19 12:58:01.737 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$Update$Param
+2019-02-19 12:58:01.743 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentRequest$QueryTree$Param
+2019-02-19 12:58:01.743 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Get
+2019-02-19 12:58:01.744 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Get$Param
+2019-02-19 12:58:01.744 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Create
+2019-02-19 12:58:01.744 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.RoleListResponse
+2019-02-19 12:58:01.745 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.UserRoleRequest$Allocated$Param
+2019-02-19 12:58:01.745 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$UnAllocated
+2019-02-19 12:58:01.745 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.PermissionRequest$Get
+2019-02-19 12:58:01.745 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.simple.api.pkg.ComponentListResponse
+2019-02-19 12:58:01.753 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.authentication.common.UserAuthResponse
+2019-02-19 12:58:01.754 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出models数量:75
+2019-02-19 12:58:01.757 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-dbgate/1.1.0-SNAPSHOT/aas-dbgate-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/dbgate/DbGateSwaggerScanner.class
+2019-02-19 12:58:01.757 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:01.757 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.m2/repository/com/apexsoft/aas-dbgate/1.1.0-SNAPSHOT/aas-dbgate-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:01.792 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ExecServiceGroup$ExecResponse
+2019-02-19 12:58:01.792 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ServiceListJSONResponse
+2019-02-19 12:58:01.793 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ServiceHistoryRevokeJSONRequest
+2019-02-19 12:58:01.793 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ServiceHistoryListJSONRequest
+2019-02-19 12:58:01.794 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ModuleDataJSONResponse
+2019-02-19 12:58:01.794 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ServiceStatusJSONRequest
+2019-02-19 12:58:01.795 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ParamIn
+2019-02-19 12:58:01.795 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceData
+2019-02-19 12:58:01.796 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$SaveOrUpdateJSONResponse
+2019-02-19 12:58:01.796 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ServiceJSONResponse
+2019-02-19 12:58:01.796 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$SaveOrUpdateServiceRequest
+2019-02-19 12:58:01.797 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ServiceIdRequest
+2019-02-19 12:58:01.797 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ExecServiceGroup$ExecRequest
+2019-02-19 12:58:01.798 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ParamOut
+2019-02-19 12:58:01.798 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$DatasourceDataJSONResponse
+2019-02-19 12:58:01.798 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.dbgate.modules.common.api.pkg.ServiceGroup$ServiceListJSONRequest
+2019-02-19 12:58:01.807 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出models数量:16
+2019-02-19 12:58:04.677 [INFO ] com.apexsoft.aas.service.config.AServiceRegister - 捕获AmsHandlerRegistryInitializedEvent事件(aas-service)com.apex.ams.server.AmsHandlerRegistryInitializedEvent
+2019-02-19 12:58:04.683 [INFO ] com.apexsoft.aas.config.AmsServiceRegisterAdapter - AServiceModel{pkg='test', name='add', namespace='guoyuan', version='1.0.0', method=public com.apexsoft.aas.service.model.AResponse com.apexsoft.TestProducer.add(com.apexsoft.aas.service.model.ARequest), bean=com.apexsoft.TestProducer@7a725c89}
+2019-02-19 12:58:06.276 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-common/1.1.0-SNAPSHOT/5091cc08f0442d80f053155680ef1b71e6a0a579/aas-common-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/common/swagger/ApiScanner.class
+2019-02-19 12:58:06.276 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.276 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-common/1.1.0-SNAPSHOT/5091cc08f0442d80f053155680ef1b71e6a0a579/aas-common-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:06.284 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'stream.sample.download' available
+2019-02-19 12:58:06.286 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'stream.sample.upload' available
+2019-02-19 12:58:06.288 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'demo.add' available
+2019-02-19 12:58:06.290 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.ams.service.helper.methodList' available
+2019-02-19 12:58:06.293 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.client.setting.update' available
+2019-02-19 12:58:06.295 [INFO ] com.apexsoft.aas.util.ClassScanner - 命中class:com.apexsoft.aas.modules.console.api.ServiceInvokeStatApi$ServiceInvokeRank
+2019-02-19 12:58:06.296 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.onlineUser.queryList' available
+2019-02-19 12:58:06.296 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.onlineUser.number' available
+2019-02-19 12:58:06.297 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.onlineUser.forceOffline' available
+2019-02-19 12:58:06.303 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出api数量:1
+2019-02-19 12:58:06.304 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-mobile/1.1.0-SNAPSHOT/aas-mobile-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/mobile/common/config/MobileSwaggerScanner.class
+2019-02-19 12:58:06.304 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.304 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.m2/repository/com/apexsoft/aas-mobile/1.1.0-SNAPSHOT/aas-mobile-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:06.320 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.workflow.queryWorkflowItemsReply' available
+2019-02-19 12:58:06.321 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.getInformationById' available
+2019-02-19 12:58:06.322 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.channel.message.get' available
+2019-02-19 12:58:06.324 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.channelMessage.saveChannelReadTime' available
+2019-02-19 12:58:06.326 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.client.log.upload' available
+2019-02-19 12:58:06.327 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.channel.message.query' available
+2019-02-19 12:58:06.329 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.commentAdd' available
+2019-02-19 12:58:06.331 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.queryInformationPageList' available
+2019-02-19 12:58:06.332 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.manage.queryUserShowAppList' available
+2019-02-19 12:58:06.332 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.queryCommentPageList' available
+2019-02-19 12:58:06.333 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.manage.queryUserOptionAppList' available
+2019-02-19 12:58:06.334 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.channel.subscribe.query' available
+2019-02-19 12:58:06.334 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.ocr.id.valid' available
+2019-02-19 12:58:06.334 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.channel.subscribe' available
+2019-02-19 12:58:06.335 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.channel.query' available
+2019-02-19 12:58:06.336 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.user.getUserByLoginId' available
+2019-02-19 12:58:06.338 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.file.download' available
+2019-02-19 12:58:06.340 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.informationSummary' available
+2019-02-19 12:58:06.341 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.collectOption' available
+2019-02-19 12:58:06.342 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.user.dong.update' available
+2019-02-19 12:58:06.343 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.messageSummary' available
+2019-02-19 12:58:06.343 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.file.upload' available
+2019-02-19 12:58:06.344 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.closeInformation' available
+2019-02-19 12:58:06.344 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.user.setHeadImage' available
+2019-02-19 12:58:06.345 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.feedback.create' available
+2019-02-19 12:58:06.345 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.queryConfirmPageList' available
+2019-02-19 12:58:06.345 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.channel.unsubscribe' available
+2019-02-19 12:58:06.346 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.manage.appUserOption' available
+2019-02-19 12:58:06.347 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.informationAdd' available
+2019-02-19 12:58:06.347 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.ocr.bank.valid' available
+2019-02-19 12:58:06.348 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.thirdAuth.getUrl' available
+2019-02-19 12:58:06.348 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.ocr.upload' available
+2019-02-19 12:58:06.348 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.user.queryDdUserListVague' available
+2019-02-19 12:58:06.349 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.user.queryDdUserListWithStatus' available
+2019-02-19 12:58:06.355 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.dd.app.dong.confirmReception' available
+2019-02-19 12:58:06.363 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出api数量:0
+2019-02-19 12:58:06.363 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-authentication/1.1.0-SNAPSHOT/aas-authentication-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/authentication/AuthenticationSwaggerScanner.class
+2019-02-19 12:58:06.363 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.364 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.m2/repository/com/apexsoft/aas-authentication/1.1.0-SNAPSHOT/aas-authentication-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:06.366 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.livebos.ticket' available
+2019-02-19 12:58:06.372 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.comp.queryList' available
+2019-02-19 12:58:06.373 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.comp.delete' available
+2019-02-19 12:58:06.373 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.allocated' available
+2019-02-19 12:58:06.373 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.update' available
+2019-02-19 12:58:06.373 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.queryList' available
+2019-02-19 12:58:06.373 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.get' available
+2019-02-19 12:58:06.373 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.role.create' available
+2019-02-19 12:58:06.374 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.save' available
+2019-02-19 12:58:06.374 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.delete' available
+2019-02-19 12:58:06.374 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.comp.queryTree' available
+2019-02-19 12:58:06.374 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.role.queryList' available
+2019-02-19 12:58:06.374 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.comp.update' available
+2019-02-19 12:58:06.374 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.update' available
+2019-02-19 12:58:06.375 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.queryList' available
+2019-02-19 12:58:06.375 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.batchCreate' available
+2019-02-19 12:58:06.375 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.unallocated' available
+2019-02-19 12:58:06.375 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.delete' available
+2019-02-19 12:58:06.375 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.role.delete' available
+2019-02-19 12:58:06.375 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.comp.create' available
+2019-02-19 12:58:06.376 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.queryList' available
+2019-02-19 12:58:06.376 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.comp.get' available
+2019-02-19 12:58:06.376 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.get' available
+2019-02-19 12:58:06.376 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.role.update' available
+2019-02-19 12:58:06.376 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.create' available
+2019-02-19 12:58:06.377 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.role.get' available
+2019-02-19 12:58:06.377 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.batchDelete' available
+2019-02-19 12:58:06.377 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.allocated' available
+2019-02-19 12:58:06.377 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.perm.create' available
+2019-02-19 12:58:06.377 [INFO ] com.apexsoft.aas.util.ClassScanner - 忽略swagger扫描错误No bean named 'aas.authentication.user.role.unallocated' available
+2019-02-19 12:58:06.381 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出api数量:0
+2019-02-19 12:58:06.381 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-dbgate/1.1.0-SNAPSHOT/aas-dbgate-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/dbgate/DbGateSwaggerScanner.class
+2019-02-19 12:58:06.381 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.381 [INFO ] com.apexsoft.aas.util.ClassScanner - jar:/Users/lowezheng/.m2/repository/com/apexsoft/aas-dbgate/1.1.0-SNAPSHOT/aas-dbgate-1.1.0-SNAPSHOT.jar
+2019-02-19 12:58:06.388 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出api数量:0
+2019-02-19 12:58:06.472 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-common/1.1.0-SNAPSHOT/5091cc08f0442d80f053155680ef1b71e6a0a579/aas-common-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/common/swagger/ApiScanner.class
+2019-02-19 12:58:06.473 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.473 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-mobile/1.1.0-SNAPSHOT/aas-mobile-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/mobile/common/config/MobileSwaggerScanner.class
+2019-02-19 12:58:06.473 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.473 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-authentication/1.1.0-SNAPSHOT/aas-authentication-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/authentication/AuthenticationSwaggerScanner.class
+2019-02-19 12:58:06.473 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.473 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-dbgate/1.1.0-SNAPSHOT/aas-dbgate-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/dbgate/DbGateSwaggerScanner.class
+2019-02-19 12:58:06.473 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.883 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-common/1.1.0-SNAPSHOT/5091cc08f0442d80f053155680ef1b71e6a0a579/aas-common-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/common/swagger/ApiScanner.class
+2019-02-19 12:58:06.883 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.883 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-mobile/1.1.0-SNAPSHOT/aas-mobile-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/mobile/common/config/MobileSwaggerScanner.class
+2019-02-19 12:58:06.883 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.884 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-authentication/1.1.0-SNAPSHOT/aas-authentication-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/authentication/AuthenticationSwaggerScanner.class
+2019-02-19 12:58:06.884 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.884 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-dbgate/1.1.0-SNAPSHOT/aas-dbgate-1.1.0-SNAPSHOT.jar!/com/apexsoft/aas/dbgate/DbGateSwaggerScanner.class
+2019-02-19 12:58:06.884 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - /
+2019-02-19 12:58:06.917 [INFO ] com.apexsoft.aas.config.ContextEventListener - 捕获Session准备事件org.springframework.boot.context.event.ApplicationReadyEvent
+2019-02-19 12:58:06.920 [INFO ] com.apexsoft.HelloApplication - Started HelloApplication in 23.587 seconds (JVM running for 24.223)

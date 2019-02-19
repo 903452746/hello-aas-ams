@@ -1,0 +1,14 @@
+ams:
+  authority: livebos-server
+  ca:
+    certFile: classpath:cert/ca.pem
+  client:
+    certFile: classpath:cert/client.pem
+    keyFile: classpath:cert/client.pkcs8.pem
+  server:
+    certFile: classpath:cert/server.pem
+    keyFile: classpath:cert/server.pkcs8.pem
+  registry:
+    protocol: zk
+    #请修改为你的zk地址
+    address: 192.168.1.115:2181

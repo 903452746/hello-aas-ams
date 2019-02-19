@@ -1,0 +1,21 @@
+application:
+  #应用名称：当使用到微服务配置中心时，name必须和对应应用匹配
+  name: hello-aas-ams
+
+#日志打印配置
+logging:
+  config: classpath:logback-spring.xml
+
+#server配置参数
+server:
+  port: 8088
+
+#aas框架配置参数
+aas:
+  #是否启用蜂巢监控
+  amc:
+    enabled: false
+  #swagger插件配置
+  swagger:
+    enabled: true
+    showDemo: false
