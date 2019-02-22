@@ -11,4 +11,4 @@ ams:
   registry:
     protocol: zk
     #请修改为你的zk地址
-    address: 192.168.1.115:2181
+    address: 192.168.230.128:32181
