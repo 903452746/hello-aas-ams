@@ -11,6 +11,8 @@ buildscript {
 }
 
 repositories {
+    mavenLocal()
+    mavenCentral()
     maven {
         credentials {
             username = "${NEXUS_USER}"
@@ -31,7 +33,7 @@ apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
 ext {
-    aasVersion = '1.1.0-SNAPSHOT'
+    aasVersion = '1.3.0-SNAPSHOT'
 }
 
 configurations {

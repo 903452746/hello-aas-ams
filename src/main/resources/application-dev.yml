@@ -14,7 +14,7 @@ spring:
     aasDs:
       name: aas-mysql
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/dd?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8&nullNamePatternMatchesAll=true&noAccessToProcedureBodies=true
+      url: jdbc:mysql://localhost:3306/dd?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8&nullNamePatternMatchesAll=true&noAccessToProcedureBodies=true&allowPublicKeyRetrieval=true
       username: root
       password: 11111111
       initialSize: 5
@@ -34,6 +34,7 @@ aas:
   #swagger插件配置
   swagger:
     enabled: true
-    showDemo: false
-  dbgate:
-    enabled: true
+  eureka:
+    registry:
+      enabled: true
+    serviceUrl: http://192.168.230.130:1001/eureka
