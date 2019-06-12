@@ -8,12 +8,11 @@ import com.apexsoft.aas.service.model.ARequest;
 import com.apexsoft.aas.service.model.AResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.InitializingBean;
 
 import java.util.HashMap;
 
 @ABusiness(namespace = "guoyuan",pkg ="test")
-public class TestProducer implements InitializingBean {
+public class TestProducer{
     private static final Logger log = LoggerFactory.getLogger(TestProducer.class);
 
     @AService(name = "add")
@@ -25,10 +24,5 @@ public class TestProducer implements InitializingBean {
         }});
 
         return response;
-    }
-
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        log.info(getClass().getName());
     }
 }
