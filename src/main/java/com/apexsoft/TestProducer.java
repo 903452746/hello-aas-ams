@@ -4,11 +4,14 @@ package com.apexsoft;
 import com.alibaba.fastjson.JSON;
 import com.apexsoft.aas.service.annotations.ABusiness;
 import com.apexsoft.aas.service.annotations.AService;
-import com.apexsoft.aas.service.model.ARequest;
-import com.apexsoft.aas.service.model.AResponse;
+import com.apexsoft.aas.service.model.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.HashMap;
 
 @ABusiness(namespace = "guoyuan",pkg ="test")
@@ -23,6 +26,33 @@ public class TestProducer{
             put("ret","1111");
         }});
 
+        return response;
+    }
+
+    //上传请求
+    @AService(name = "upload")
+    public AUploadResponse upload(AUploadRequest request) {
+        UploadFileInfo fileInfo = request.getFileInfo();
+        log.info(fileInfo.toString());
+        File file = new File(fileInfo.getFileName());
+        AUploadResponse response = new AUploadResponse();
+        try (FileOutputStream fos = new FileOutputStream(file)) {
+            byte[] bytes = new byte[1024];
+            int len;
+            while ((len = request.getInputStream().read(bytes)) != -1) {
+                fos.write(bytes, 0, len);
+            }
+            response.setCode(1);
+            response.setFilecode(file.getAbsolutePath());
+        } catch (FileNotFoundException e) {
+            log.error(e.getMessage(), e);
+            response.setCode(-1);
+            response.setNote(e.getMessage());
+        } catch (IOException e) {
+            log.error(e.getMessage(), e);
+            response.setCode(-1);
+            response.setNote(e.getMessage());
+        }
         return response;
     }
 }

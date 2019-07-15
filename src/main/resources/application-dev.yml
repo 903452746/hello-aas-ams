@@ -34,7 +34,14 @@ aas:
   #swagger插件配置
   swagger:
     enabled: true
-  eureka:
-    registry:
-      enabled: true
-    serviceUrl: http://192.168.230.130:1001/eureka
+  #eureka:
+    #registry:
+      #enabled: true
+    #serviceUrl: http://192.168.230.130:1001/eureka
+    #instance:
+      #leaseExpirationDurationInSeconds: 30
+      #leaseRenewalIntervalInSeconds: 90
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.230.130:1001/eureka
