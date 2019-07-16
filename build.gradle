@@ -43,8 +43,10 @@ configurations {
 dependencies {
 
     compile ("com.apexsoft:aas-spring-boot-starter:${aasVersion}")
-    compile ("com.apexsoft:aas-eureka-client:${aasVersion}")
-    
+    compile ("com.apexsoft:aas-eureka-adapter:${aasVersion}")
+    compile ("com.apexsoft:aas-dubbo-adapter:${aasVersion}")
+
+
     compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
     //指定jna版本为4.5.1，避免Mac、Windows系统取不到内存、硬盘信息
