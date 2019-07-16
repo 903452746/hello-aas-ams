@@ -1,0 +1,88 @@
+2019-07-16 09:35:04.998 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:35:14.469 [WARN ] com.apex.ams.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource:UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+io.grpc.StatusRuntimeException: UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:235)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:216)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:141)
+	at com.apex.ams.config.ConfigServiceGrpc$ConfigServiceBlockingStub.load(ConfigServiceGrpc.java:319)
+	at com.apex.ams.config.client.ConfigServicePropertySourceLocator.locate(ConfigServicePropertySourceLocator.java:77)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:94)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:567)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.apexsoft.HelloApplication.main(HelloApplication.java:19)
+2019-07-16 09:35:20.212 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:35:20.218 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:35:21.128 [WARN ] com.apex.ams.metrics.ElasticsearchReporterService - ams.metrics.es.hosts is empty
+2019-07-16 09:35:23.592 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:35:25.044 [WARN ] oshi.software.os.mac.MacOSVersionInfoEx - Unable to parse version 10.14.5 to a codename.
+2019-07-16 09:35:29.815 [WARN ] com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1563240929815, current=DOWN, previous=UP]
+2019-07-16 09:35:29.946 [WARN ] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'amsServer': com.apex.ams.AmsServiceException: [ZookeeperRegistry] false to unregistery [guoyuan]https://192.168.31.176:35921/test.add to  [name=default, uri=zk://192.168.230.130:2181]
+2019-07-16 09:35:48.739 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:35:58.207 [WARN ] com.apex.ams.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource:UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+io.grpc.StatusRuntimeException: UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:235)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:216)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:141)
+	at com.apex.ams.config.ConfigServiceGrpc$ConfigServiceBlockingStub.load(ConfigServiceGrpc.java:319)
+	at com.apex.ams.config.client.ConfigServicePropertySourceLocator.locate(ConfigServicePropertySourceLocator.java:77)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:94)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:567)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.apexsoft.HelloApplication.main(HelloApplication.java:17)
+2019-07-16 09:36:03.463 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:36:03.469 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:36:04.352 [WARN ] com.apex.ams.metrics.ElasticsearchReporterService - ams.metrics.es.hosts is empty
+2019-07-16 09:36:06.811 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:36:10.045 [WARN ] oshi.software.os.mac.MacOSVersionInfoEx - Unable to parse version 10.14.5 to a codename.
+2019-07-16 09:46:16.689 [WARN ] com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1563241576689, current=DOWN, previous=UP]
+2019-07-16 09:46:16.826 [WARN ] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'amsServer': com.apex.ams.AmsServiceException: [ZookeeperRegistry] false to unregistery [guoyuan]https://192.168.31.176:43327/test.add to  [name=default, uri=zk://192.168.230.130:2181]
+2019-07-16 09:46:21.643 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:46:31.099 [WARN ] com.apex.ams.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource:UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+io.grpc.StatusRuntimeException: UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:235)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:216)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:141)
+	at com.apex.ams.config.ConfigServiceGrpc$ConfigServiceBlockingStub.load(ConfigServiceGrpc.java:319)
+	at com.apex.ams.config.client.ConfigServicePropertySourceLocator.locate(ConfigServicePropertySourceLocator.java:77)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:94)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:567)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.apexsoft.HelloApplication.main(HelloApplication.java:17)
+2019-07-16 09:46:36.221 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:46:36.227 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:46:37.135 [WARN ] com.apex.ams.metrics.ElasticsearchReporterService - ams.metrics.es.hosts is empty
+2019-07-16 09:46:39.463 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:46:40.043 [WARN ] oshi.software.os.mac.MacOSVersionInfoEx - Unable to parse version 10.14.5 to a codename.
+2019-07-16 09:48:06.493 [WARN ] com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1563241686492, current=DOWN, previous=UP]
+2019-07-16 09:48:06.628 [WARN ] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'amsServer': com.apex.ams.AmsServiceException: [ZookeeperRegistry] false to unregistery [guoyuan]https://192.168.31.176:32396/test.add to  [name=default, uri=zk://192.168.230.130:2181]
+2019-07-16 09:53:39.587 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:53:49.068 [WARN ] com.apex.ams.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource:UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+io.grpc.StatusRuntimeException: UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:235)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:216)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:141)
+	at com.apex.ams.config.ConfigServiceGrpc$ConfigServiceBlockingStub.load(ConfigServiceGrpc.java:319)
+	at com.apex.ams.config.client.ConfigServicePropertySourceLocator.locate(ConfigServicePropertySourceLocator.java:77)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:94)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:567)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.apexsoft.HelloApplication.main(HelloApplication.java:17)
+2019-07-16 09:53:54.118 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:53:54.126 [WARN ] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-16 09:53:55.039 [WARN ] com.apex.ams.metrics.ElasticsearchReporterService - ams.metrics.es.hosts is empty
+2019-07-16 09:53:57.313 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 09:54:00.041 [WARN ] oshi.software.os.mac.MacOSVersionInfoEx - Unable to parse version 10.14.5 to a codename.
+2019-07-16 10:07:52.055 [WARN ] com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1563242872055, current=DOWN, previous=UP]
+2019-07-16 10:07:52.132 [WARN ] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'amsServer': com.apex.ams.AmsServiceException: [ZookeeperRegistry] false to unregistery [guoyuan]https://192.168.31.176:42387/test.add to  [name=default, uri=zk://192.168.230.130:2181]

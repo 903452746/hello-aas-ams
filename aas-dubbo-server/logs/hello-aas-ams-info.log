@@ -1,0 +1,45 @@
+2019-07-16 10:19:10.781 [INFO ] com.apexsoft.HelloApplication - The following profiles are active: dev
+2019-07-16 10:19:14.972 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-common/1.3.1-SNAPSHOT/aas-common-1.3.1-SNAPSHOT.jar!/com/apexsoft/aas/common/swagger/ApiScanner.class
+2019-07-16 10:19:15.270 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出models数量:51
+2019-07-16 10:19:15.271 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-authentication/1.3.1-SNAPSHOT/5136ae4038f0c16d1b76b5a7d93cea983dd50cb7/aas-authentication-1.3.1-SNAPSHOT.jar!/com/apexsoft/aas/authentication/AuthenticationSwaggerScanner.class
+2019-07-16 10:19:15.487 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出models数量:75
+2019-07-16 10:19:15.489 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-dbgate/1.3.1-SNAPSHOT/e21e64432f3980d7fb91c8d30dae249677399275/aas-dbgate-1.3.1-SNAPSHOT.jar!/com/apexsoft/aas/dbgate/DbGateSwaggerScanner.class
+2019-07-16 10:19:15.520 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出models数量:16
+2019-07-16 10:19:17.174 [INFO ] com.apexsoft.aas.service.config.AServiceRegister - 捕获AmsHandlerRegistryInitializedEvent事件(aas-service)com.apex.ams.server.AmsHandlerRegistryInitializedEvent
+2019-07-16 10:19:17.522 [INFO ] com.apexsoft.aas.config.AmsServiceRegisterAdapter - AServiceModel{pkg='test', name='add', namespace='guoyuan', version='1.0.0', method=public com.apexsoft.aas.service.model.AResponse com.apexsoft.TestProducer.add(com.apexsoft.aas.service.model.ARequest), bean=com.apexsoft.TestProducer@5ac35b17}
+2019-07-16 10:19:17.548 [INFO ] com.apexsoft.aas.config.AmsServiceRegisterAdapter - AServiceModel{pkg='test', name='upload', namespace='guoyuan', version='1.0.0', method=public com.apexsoft.aas.service.model.AUploadResponse com.apexsoft.TestProducer.upload(com.apexsoft.aas.service.model.AUploadRequest), bean=com.apexsoft.TestProducer@5ac35b17}
+2019-07-16 10:19:18.555 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.m2/repository/com/apexsoft/aas-common/1.3.1-SNAPSHOT/aas-common-1.3.1-SNAPSHOT.jar!/com/apexsoft/aas/common/swagger/ApiScanner.class
+2019-07-16 10:19:18.573 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出api数量:1
+2019-07-16 10:19:18.573 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-authentication/1.3.1-SNAPSHOT/5136ae4038f0c16d1b76b5a7d93cea983dd50cb7/aas-authentication-1.3.1-SNAPSHOT.jar!/com/apexsoft/aas/authentication/AuthenticationSwaggerScanner.class
+2019-07-16 10:19:18.583 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出api数量:0
+2019-07-16 10:19:18.583 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - file:/Users/lowezheng/.gradle/caches/modules-2/files-2.1/com.apexsoft/aas-dbgate/1.3.1-SNAPSHOT/e21e64432f3980d7fb91c8d30dae249677399275/aas-dbgate-1.3.1-SNAPSHOT.jar!/com/apexsoft/aas/dbgate/DbGateSwaggerScanner.class
+2019-07-16 10:19:18.587 [INFO ] com.apexsoft.aas.common.swagger.ApiScanner - 解析出api数量:0
+2019-07-16 10:19:18.797 [INFO ] com.apexsoft.aas.config.ContextEventListener - 捕获Session准备事件org.springframework.boot.context.event.ApplicationReadyEvent
+2019-07-16 10:19:18.799 [INFO ] com.apexsoft.aas.common.session.SessionFilter - *
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/auth
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/logout
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/ticket/register
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/ticket/result
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/setting/info
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/setting/settingInfo
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/captcha/fetch
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/captcha/verify
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/stream/upload
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/stream/download
+2019-07-16 10:19:18.800 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/stream/direct/upload
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /aas/api/stream/direct/download
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - *.ico
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - *.js
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - *.css
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - *.png
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /static/*
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /swagger*
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /swagger-resources/*
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /webjars/*
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - /v2/api-docs
+2019-07-16 10:19:18.801 [INFO ] com.apexsoft.aas.common.session.SessionFilter - *
+2019-07-16 10:19:18.803 [INFO ] com.apexsoft.HelloApplication - Started HelloApplication in 19.025 seconds (JVM running for 19.333)
+2019-07-16 10:27:40.795 [INFO ] com.apexsoft.TestProducer - {"params":{"1111":"22222"}}
+2019-07-16 10:27:45.893 [INFO ] com.apexsoft.TestProducer - {"params":{"1111":"22222"}}
+2019-07-16 10:27:50.901 [INFO ] com.apexsoft.TestProducer - {"params":{"1111":"22222"}}
+2019-07-16 10:27:55.907 [INFO ] com.apexsoft.TestProducer - {"params":{"1111":"22222"}}

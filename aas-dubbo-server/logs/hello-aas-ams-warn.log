@@ -1,0 +1,25 @@
+2019-07-16 10:19:01.279 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 10:19:10.759 [WARN ] com.apex.ams.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource:UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+io.grpc.StatusRuntimeException: UNAVAILABLE: Name resolver returned no usable address. addrs=[], attrs={}
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:235)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:216)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:141)
+	at com.apex.ams.config.ConfigServiceGrpc$ConfigServiceBlockingStub.load(ConfigServiceGrpc.java:319)
+	at com.apex.ams.config.client.ConfigServicePropertySourceLocator.locate(ConfigServicePropertySourceLocator.java:77)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:93)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:567)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.apexsoft.HelloApplication.main(HelloApplication.java:19)
+2019-07-16 10:19:12.271 [WARN ] com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.apexsoft], dubbo version: 2.6.6, current host: 192.168.31.176
+2019-07-16 10:19:16.305 [WARN ] com.apex.ams.metrics.ElasticsearchReporterService - ams.metrics.es.hosts is empty
+2019-07-16 10:19:17.204 [WARN ] com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.31.176
+2019-07-16 10:19:17.205 [WARN ] com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.31.176
+2019-07-16 10:19:18.783 [WARN ] com.apex.ams.client.RegistryNameResolver - No servers online. 
+2019-07-16 10:19:20.086 [WARN ] oshi.software.os.mac.MacOSVersionInfoEx - Unable to parse version 10.14.5 to a codename.
+2019-07-16 10:27:40.781 [WARN ] com.alibaba.com.caucho.hessian.io.SerializerFactory - Hessian/Burlap: 'com.apexsoft.ApplicationAction$2' is an unknown class in sun.misc.Launcher$AppClassLoader@2a139a55:
+java.lang.ClassNotFoundException: com.apexsoft.ApplicationAction$2
+2019-07-16 10:27:59.001 [WARN ] com.alibaba.dubbo.remoting.transport.AbstractServer -  [DUBBO] All clients has discontected from /192.168.31.176:20880. You can graceful shutdown now., dubbo version: 2.6.6, current host: 192.168.31.176
+2019-07-16 10:28:00.681 [WARN ] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'amsServer': com.apex.ams.AmsServiceException: [ZookeeperRegistry] false to unregistery [guoyuan]https://192.168.31.176:37272/test.add to  [name=default, uri=zk://192.168.230.130:2181]

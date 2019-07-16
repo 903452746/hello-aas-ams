@@ -1,2 +1,6 @@
 rootProject.name = 'hello-aas-ams'
+include 'aas-eureka-server'
+include 'aas-eureka-client'
+include 'aas-dubbo-server'
+include 'aas-dubbo-client'
 
