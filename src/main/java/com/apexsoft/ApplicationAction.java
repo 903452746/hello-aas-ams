@@ -1,5 +1,6 @@
 package com.apexsoft;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSONObject;
 import com.apexsoft.aas.service.model.ARequest;
 import com.apexsoft.extra.AasDubboCommServiceFactory;
@@ -24,23 +25,29 @@ public class ApplicationAction implements ApplicationListener<ApplicationReadyEv
     private AasFeginCommServiceFactory aasFeginCommServiceFactory;
 
 
+    @Reference
+    private AnnotationService annotationService;
+
+
+    @Autowired
+    private AnnotationService service;
+
+
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
         try {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    int i = 0;
-                    do {
-                        try {
-                            Thread.sleep(5000);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                        doEureka();
-                        //doGenicDubbo();
-                    } while (++i < 1000);
-                }
+            new Thread(() -> {
+                int i = 0;
+                do {
+                    try {
+                        Thread.sleep(5000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    //doEureka();
+                    //doGenicDubbo();
+                    doDubbo();
+                } while (++i < 1000);
             }).start();
 
         } catch (Exception e) {
@@ -48,6 +55,12 @@ public class ApplicationAction implements ApplicationListener<ApplicationReadyEv
         }
     }
 
+    private void doDubbo() {
+        log.info(annotationService.sayHello("我是消费者，我在调用"));
+    }
+    private void doEurke() {
+        log.info(service.sayHello("我是消费者，我在调用"));
+    }
     private void doGenicDubbo() {
         ARequest request = new ARequest();
         request.setParams(new HashMap<String, Object>() {{
