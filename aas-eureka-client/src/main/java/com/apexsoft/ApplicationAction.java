@@ -50,7 +50,9 @@ public class ApplicationAction implements ApplicationListener<ApplicationReadyEv
             put("1111", "22222");
         }});
         try {
-            log.info(JSONObject.toJSONString(aasFeginCommServiceFactory.getClient("aas-eureka-server").sendRequest("guoyuan", "test.add", request)));
+            log.info(JSONObject.toJSONString(
+                    aasFeginCommServiceFactory.getClient("aas-eureka-server")
+                            .sendRequest("guoyuan", "test.add", request)));
         } catch (Exception e) {
             log.error(e.getMessage(), e);
         }
