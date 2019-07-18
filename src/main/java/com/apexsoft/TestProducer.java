@@ -12,7 +12,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 @ABusiness(namespace = "guoyuan",pkg ="test")
 public class TestProducer{
@@ -25,7 +27,16 @@ public class TestProducer{
         response.setData(new HashMap<String,Object>(){{
             put("ret","1111");
         }});
-
+        response.setRecords(new ArrayList<Map<String,Object>>(){{
+           add(new HashMap<String,Object>(){{
+               put("aaa",111);
+               put("bbb","2222");
+           }});
+            add(new HashMap<String,Object>(){{
+                put("aaa",111);
+                put("bbb","2222");
+            }});
+        }});
         return response;
     }
 

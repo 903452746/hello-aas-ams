@@ -1,10 +1,3 @@
-2019-07-16 10:22:27.749 [INFO ] com.apexsoft.HelloApplication - Starting HelloApplication on lowezheng.local with PID 9691 (/lowe/workspace/hello-aas-ams/aas-dubbo-client/build/classes/java/main started by lowezheng in /lowe/workspace/hello-aas-ams/aas-dubbo-client)
-2019-07-16 10:22:27.758 [INFO ] com.apexsoft.HelloApplication - The following profiles are active: dev
-2019-07-16 10:22:29.218 [INFO ] com.apexsoft.HelloApplication - Started HelloApplication in 1.866 seconds (JVM running for 2.096)
-2019-07-16 10:27:33.493 [INFO ] com.apexsoft.HelloApplication - Starting HelloApplication on lowezheng.local with PID 10028 (/lowe/workspace/hello-aas-ams/aas-dubbo-client/build/classes/java/main started by lowezheng in /lowe/workspace/hello-aas-ams/aas-dubbo-client)
-2019-07-16 10:27:33.495 [INFO ] com.apexsoft.HelloApplication - The following profiles are active: dev
-2019-07-16 10:27:35.021 [INFO ] com.apexsoft.HelloApplication - Started HelloApplication in 1.903 seconds (JVM running for 2.146)
-2019-07-16 10:27:40.888 [INFO ] com.apexsoft.ApplicationAction - {"data":{"ret":"1111"},"errcode":0,"success":false,"totalPage":-1,"totalRecord":-1}
-2019-07-16 10:27:45.894 [INFO ] com.apexsoft.ApplicationAction - {"data":{"ret":"1111"},"errcode":0,"success":false,"totalPage":-1,"totalRecord":-1}
-2019-07-16 10:27:50.902 [INFO ] com.apexsoft.ApplicationAction - {"data":{"ret":"1111"},"errcode":0,"success":false,"totalPage":-1,"totalRecord":-1}
-2019-07-16 10:27:55.908 [INFO ] com.apexsoft.ApplicationAction - {"data":{"ret":"1111"},"errcode":0,"success":false,"totalPage":-1,"totalRecord":-1}
+2019-07-18 10:34:20.938 [INFO ] com.apexsoft.HelloApplication - Starting HelloApplication on lowezheng.local with PID 31865 (/lowe/workspace/hello-aas-ams/aas-dubbo-client/build/classes/java/main started by lowezheng in /lowe/workspace/hello-aas-ams/aas-dubbo-client)
+2019-07-18 10:34:20.941 [INFO ] com.apexsoft.HelloApplication - The following profiles are active: dev
+2019-07-18 10:34:22.842 [INFO ] com.apexsoft.HelloApplication - Started HelloApplication in 2.346 seconds (JVM running for 2.65)

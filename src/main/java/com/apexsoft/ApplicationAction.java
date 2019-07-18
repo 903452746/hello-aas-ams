@@ -1,10 +1,16 @@
 package com.apexsoft;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.apex.ams.client.dynamic.JsonStub;
+import com.apex.ams.util.AasCommService;
 import com.apexsoft.aas.service.model.ARequest;
+import com.apexsoft.aas.service.model.AResponse;
 import com.apexsoft.extra.AasDubboCommServiceFactory;
 import com.apexsoft.extra.AasFeginCommServiceFactory;
+import io.grpc.CallOptions;
+import io.grpc.stub.StreamObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +18,9 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 @Component
 public class ApplicationAction implements ApplicationListener<ApplicationReadyEvent> {
@@ -46,10 +54,61 @@ public class ApplicationAction implements ApplicationListener<ApplicationReadyEv
                     }
                     //doEureka();
                     //doGenicDubbo();
-                    doDubbo();
+                    //doDubbo();
+                    //doAms();
+                    doJsonAms();
                 } while (++i < 1000);
             }).start();
 
+        } catch (Exception e) {
+            log.error(e.getMessage(), e);
+        }
+    }
+
+    private void doJsonAms() {
+        try {
+            JsonStub stub = JsonStub.create("guoyuan", "test.add", "handle");
+            List<String> requests = new ArrayList<>();
+            ARequest request = new ARequest();
+            request.setParams(new HashMap<String, Object>() {{
+                put("1111", "22222");
+                put("2222222", new HashMap<String,Object>(){{
+                    put("222",2222);
+                }});
+            }});
+
+
+            requests.add(request.toGRPCJsonString());
+            stub.call(requests, new StreamObserver<String>() {
+                @Override
+                public void onNext(String value) {
+                    log.info(value);
+                    AResponse response = AResponse.buildFromGRPCJson(value);
+                    log.info(JSON.toJSONString(response));
+                }
+
+                @Override
+                public void onError(Throwable t) {
+                    log.error("onError:"+t.getMessage(),t);
+                }
+
+                @Override
+                public void onCompleted() {
+                    log.info("onCompleted:");
+                }
+            },CallOptions.DEFAULT);
+        }catch (Exception e){
+            log.error(e.getMessage(),e);
+        }
+    }
+
+    private void doAms() {
+        ARequest request = new ARequest();
+        request.setParams(new HashMap<String, Object>() {{
+            put("1111", "22222");
+        }});
+        try {
+            log.info(JSONObject.toJSONString(AasCommService.sendRequest("guoyuan", "test.add", request)));
         } catch (Exception e) {
             log.error(e.getMessage(), e);
         }
