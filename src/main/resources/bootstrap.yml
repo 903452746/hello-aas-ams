@@ -1,7 +1,5 @@
 ams:
   authority: livebos-server
-  config:
-    enabled: false
   ca:
     certFile: classpath:cert/ca.pem
   client:
@@ -9,7 +7,6 @@ ams:
     keyFile: classpath:cert/client.pkcs8.pem
   server:
     certFile: classpath:cert/server.pem
-    host: 192.168.80.206
     keyFile: classpath:cert/server.pkcs8.pem
   registry:
     protocol: zk

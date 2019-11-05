@@ -42,14 +42,9 @@ configurations {
 dependencies {
 
     compile ("com.apexsoft:aas-spring-boot-starter:${aasVersion}")
+    compile ("com.apexsoft:extend-mobile:${aasVersion}")
     compile ("com.apexsoft:aas-eureka-adapter:${aasVersion}")
     compile ("com.apexsoft:aas-dubbo-adapter:${aasVersion}")
-
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '2.1.1.RELEASE'
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-ribbon', version: '2.1.1.RELEASE'
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.1.1.RELEASE'
-
-
 
     compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'

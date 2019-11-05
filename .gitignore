@@ -7,3 +7,5 @@ aas-ams-client/out
 aas-eureka-client/build
 aas-eureka-server/build
 out
+aas-ams-client/build
+.config.cache

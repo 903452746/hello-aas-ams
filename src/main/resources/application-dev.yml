@@ -34,6 +34,8 @@ aas:
   #swagger插件配置
   swagger:
     enabled: true
+  mobile:
+    enabled: true
   #eureka:
     #registry:
       #enabled: true
