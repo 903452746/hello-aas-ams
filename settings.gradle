@@ -3,4 +3,5 @@ include 'aas-eureka-server'
 include 'aas-eureka-client'
 include 'aas-dubbo-server'
 include 'aas-dubbo-client'
+include 'aas-ams-client'
 

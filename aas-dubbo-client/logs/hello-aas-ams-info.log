@@ -1,3 +1,0 @@
-2019-07-18 10:34:20.938 [INFO ] com.apexsoft.HelloApplication - Starting HelloApplication on lowezheng.local with PID 31865 (/lowe/workspace/hello-aas-ams/aas-dubbo-client/build/classes/java/main started by lowezheng in /lowe/workspace/hello-aas-ams/aas-dubbo-client)
-2019-07-18 10:34:20.941 [INFO ] com.apexsoft.HelloApplication - The following profiles are active: dev
-2019-07-18 10:34:22.842 [INFO ] com.apexsoft.HelloApplication - Started HelloApplication in 2.346 seconds (JVM running for 2.65)

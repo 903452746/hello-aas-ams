@@ -3,6 +3,7 @@ package com.apexsoft;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.util.TypeUtils;
 import com.apex.ams.client.dynamic.JsonStub;
 import com.apex.ams.util.AasCommService;
 import com.apexsoft.aas.service.model.ARequest;
@@ -56,9 +57,9 @@ public class ApplicationAction implements ApplicationListener<ApplicationReadyEv
                     //doGenicDubbo();
                     //doDubbo();
                     //doAms();
-                    doJsonAms();
+                    //doJsonAms();
                 } while (++i < 1000);
-            }).start();
+            });
 
         } catch (Exception e) {
             log.error(e.getMessage(), e);
@@ -72,9 +73,6 @@ public class ApplicationAction implements ApplicationListener<ApplicationReadyEv
             ARequest request = new ARequest();
             request.setParams(new HashMap<String, Object>() {{
                 put("1111", "22222");
-                put("2222222", new HashMap<String,Object>(){{
-                    put("222",2222);
-                }});
             }});
 
 

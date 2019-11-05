@@ -2,3 +2,8 @@
 /logs/
 /build/
 /.idea/
+aas-ams-client/libs
+aas-ams-client/out
+aas-eureka-client/build
+aas-eureka-server/build
+out

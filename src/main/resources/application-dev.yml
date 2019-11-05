@@ -45,11 +45,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.230.130:1001/eureka
+    enabled: false
 dubbo:
   application:
     name: ${application.name}
   registry:
-    address: zookeeper://192.168.230.130:2181
+    address: zookeeper://192.168.3.131:2181
   protocol:
     name: dubbo
     port: 20880

@@ -28,7 +28,7 @@
     <!-- 设置日志文件最大size-->
     <property name="log.file.maxSize" value="2MB"/>
     <!-- 设置root日志打印级别-->
-    <property name="log.level.root" value="WARN"/>
+    <property name="log.level.root" value="INFO"/>
     <!-- 设置logger日志打印级别-->
     <property name="log.level.logger" value="INFO"/>
 

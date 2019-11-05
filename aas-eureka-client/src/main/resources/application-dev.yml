@@ -26,6 +26,8 @@ spring:
       poolPreparedStatements: true
       maxOpenPreparedStatements: 100
       filters: stat,wall
+  application:
+    name: ${application.name}
 #aas框架配置参数
 aas:
   #是否启用蜂巢监控
@@ -44,4 +46,4 @@ aas:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.230.130:1001/eureka
+      defaultZone: http://127.0.0.1:1001/eureka

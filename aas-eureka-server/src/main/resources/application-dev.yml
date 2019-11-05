@@ -44,4 +44,4 @@ aas:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.230.130:1001/eureka
+      defaultZone: http://127.0.0.1:1001/eureka
