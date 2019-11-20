@@ -34,9 +34,7 @@ aas:
   #swagger插件配置
   swagger:
     enabled: true
-  mobile:
-    enabled: true
-  #eureka:
+      #eureka:
       #registry:
       #enabled: true
       #serviceUrl: http://192.168.230.130:1001/eureka

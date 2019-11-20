@@ -9,3 +9,5 @@ aas-eureka-server/build
 out
 aas-ams-client/build
 .config.cache
+/aas-dubbo-server/build/
+/aas-dubbo-client/build/
