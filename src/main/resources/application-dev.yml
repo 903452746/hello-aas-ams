@@ -1,7 +1,7 @@
 application:
   #应用名称：当使用到微服务配置中心时，name必须和对应应用匹配
   name: hello-aas-ams
-
+  plist: http://wwww.baidu.com
 #日志打印配置
 logging:
   config: classpath:logback-spring.xml
@@ -26,6 +26,10 @@ spring:
       poolPreparedStatements: true
       maxOpenPreparedStatements: 100
       filters: stat,wall
+  #redis:
+    #host: 127.0.0.1
+  session:
+    store-type: none
 #aas框架配置参数
 aas:
   #是否启用蜂巢监控
@@ -43,11 +47,13 @@ aas:
       #instance:
       #leaseExpirationDurationInSeconds: 30
     #leaseRenewalIntervalInSeconds: 90
+    app-file-path: ./upload/
 eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.230.130:1001/eureka
     enabled: false
+
 dubbo:
   application:
     name: ${application.name}

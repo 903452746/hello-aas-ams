@@ -33,7 +33,7 @@ apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
 ext {
-    aasVersion = '1.3.2-SNAPSHOT'
+    aasVersion = '1.3.3-SNAPSHOT'
 }
 
 configurations {
